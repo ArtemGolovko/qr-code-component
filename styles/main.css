@@ -18,4 +18,16 @@
 body {
     font-size: 15px;
     font-family: Outfit;
+    background-color: var(--slate-300);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 21.333em;
+    height: 33.266em;
+    background-color: var(--white);
+    border-radius: 20px;
 }
