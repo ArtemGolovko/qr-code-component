@@ -1,0 +1,21 @@
+@font-face {
+    font-family: Outfit;
+    src: url(fonts/Outfit.ttf);
+}
+
+:root {
+    --white: hsl(0, 0%, 100%);
+    --slate-300: hsl(212, 45%, 89%);
+    --slave-500: hsl(216, 15%, 48%);
+    --slave-900: hsl(218, 44%, 22%);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-size: 15px;
+    font-family: Outfit;
+}
